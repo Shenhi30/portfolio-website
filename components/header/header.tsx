@@ -3,7 +3,7 @@ import Link from 'next/link'
 import css from '../header/header.module.scss'
 
 
-export default function NavBar () {
+export default function Header () {
     return (
         <>
             <div className={css.header}>
@@ -17,7 +17,7 @@ export default function NavBar () {
                 />
                 </nav>
                 <p className={css.logo_name}>Shenhi</p>
-                <ul>
+                <ul className={css.nav_links}>
                     <li>
                         <Link href="/"><span className={css.hash}>#</span>home</Link>
                     </li>

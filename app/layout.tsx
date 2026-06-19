@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import "./globals.scss";
 import styles from "./layout.module.scss";
+import Header from "../components/header/header"
 
 
 export const metadata: Metadata = {
@@ -18,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className={styles.container}>
-          {/* <Header /> will go here later */}
+          <Header />
           <main className={styles.main}>
             {children}
           </main>
