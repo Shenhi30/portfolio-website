@@ -1,4 +1,4 @@
-@import "/styles/variables.scss";
+@import "../../styles/variables.scss";
 
 .header{
 
@@ -8,6 +8,10 @@
 .header_logo{
 
 
+}
+
+.hash{
+    color: $primary-purple;
 }
 
 nav_links{

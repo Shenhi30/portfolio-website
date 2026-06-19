@@ -9,10 +9,10 @@ export default function Header () {
             <div className={css.header}>
                 <nav className={css.header_logo}>
                 <Image 
-                    src="/public/Logo.svg"
+                    src="/public/logo.png"
                     alt="Logo"
-                    width={ 20}
-                    height={20}
+                    width={16}
+                    height={16}
                     priority
                 />
                 </nav>
@@ -22,13 +22,13 @@ export default function Header () {
                         <Link href="/"><span className={css.hash}>#</span>home</Link>
                     </li>
                     <li>
-                        <Link href="/"><span className={css.hash}>#</span>projects</Link>
+                        <Link href="/projects"><span className={css.hash}>#</span>projects</Link>
                     </li>
                     <li>
-                        <Link href="/"><span className={css.hash}>#</span>about-me</Link>
+                        <Link href="/about-me"><span className={css.hash}>#</span>about-me</Link>
                     </li>
                     <li>
-                        <Link href="/"><span className={css.hash}>#</span>contacts</Link>
+                        <Link href="/contacts"><span className={css.hash}>#</span>contacts</Link>
                     </li>
                 </ul>
 
