@@ -39,6 +39,26 @@ export default function Home() {
 
       </section>
       
+      <section className={css.skills_preview}>
+
+
+
+
+      </section>
+
+      <section className={css.about_me_preview}>
+
+
+
+
+      </section>
+      
+      <section className={css.contacts_preview}>
+
+
+
+
+      </section>
     </>
   )
     
