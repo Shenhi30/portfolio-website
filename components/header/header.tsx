@@ -9,14 +9,14 @@ export default function Header () {
             <div className={css.header}>
                 <nav className={css.header_logo}>
                 <Image 
-                    src="/public/logo.png"
+                    src="/images/logo.png"
                     alt="Logo"
                     width={16}
                     height={16}
                     priority
                 />
                 </nav>
-                <p className={css.logo_name}>Shenhi</p>
+                <p className={css.logo_name}>Viktor</p>
                 <ul className={css.nav_links}>
                     <li>
                         <Link href="/"><span className={css.hash}>#</span>home</Link>

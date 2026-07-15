@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.scss";
 import styles from "./layout.module.scss";
 import Header from "../components/header/header"
+import Footer from "../components/footer/footer"
 
 
 export const metadata: Metadata = {
@@ -19,11 +20,12 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className={styles.container}>
+          {/* <SocialSidebar /> */}
           <Header />
           <main className={styles.main}>
             {children}
           </main>
-          {/* <Footer /> will go here later */}
+          <Footer />
         </div>
       </body>
     </html>
