@@ -33,9 +33,37 @@ export default function Home() {
       </section>
 
       <section className={css.projects_preview}>
+        <div><h2><span className={css.hash}>#</span>projects</h2></div>
+        <br />
+        <Link href="/projects">Viev all ~→</Link>
 
-
-
+        <div className={css.cards}>
+          <Image 
+          src=""
+          width={330}
+          height={201}
+          alt='preview'
+          priority
+          />
+        </div>
+        <div className={css.cards}>
+          <Image 
+          src=""
+          width={330}
+          height={201}
+          alt='preview'
+          priority
+          />
+        </div>
+        <div className={css.cards}>
+          <Image 
+          src=""
+          width={330}
+          height={201}
+          alt='preview'
+          priority
+          />
+        </div>
 
       </section>
       
