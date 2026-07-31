@@ -45,6 +45,18 @@ export default function Home() {
           alt='preview'
           priority
           />
+
+          <p>
+
+          </p>
+
+          <h1>
+
+          </h1>
+          <p>
+
+          </p>
+          <Link href="https://kiyv-carwash.vercel.app/">Live ←—→</Link>
         </div>
         <div className={css.cards}>
           <Image 
@@ -54,15 +66,17 @@ export default function Home() {
           alt='preview'
           priority
           />
-        </div>
-        <div className={css.cards}>
-          <Image 
-          src=""
-          width={330}
-          height={201}
-          alt='preview'
-          priority
-          />
+
+          <p>
+
+          </p>
+          <h1>
+
+          </h1>
+          <p>
+
+          </p>
+          <Link href="">Live ←—→</Link>
         </div>
 
       </section>
