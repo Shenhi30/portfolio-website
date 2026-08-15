@@ -76,7 +76,7 @@ export default function Home() {
           <p>
 
           </p>
-          <Link href="09-auth-iota-two.vercel.app">Live ←—→</Link>
+          <Link href="https://09-auth-iota-two.vercel.app">Live ←—→</Link>
         </div>
 
       </section>
