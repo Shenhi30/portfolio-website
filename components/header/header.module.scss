@@ -1,27 +1,59 @@
 @import "../../styles/variables.scss";
 
 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
 
-
+    @include mobile {
+            flex-direction: column;
+            gap: 24px;
+            padding: 24px 0;
+        }
 }
 
 .header_logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
 
-
+    .logo_name {
+        color: $text-white;
+        font-weight: 700;
+        font-size: 16px;
+    }
 }
 
-.logo_name{
-    
-}
 
-.hash{
-    color: $primary-purple;
-}
+
 
 .nav_links{
- li{
-
- }
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+        
+    @include mobile {
+        flex-direction: column;
+        gap: 12px;
+        font-size: 14px;
+    }
+    li{
+        color: $text-gray;
+        font-weight: 500;
+        transition: color 0.2s ease;
     
-
+        a {
+            display: flex;
+            align-items: center;
+            &:hover{
+                color: $text-white;
+            }
+        }
+    }
+    .hash {
+        color: $primary-purple;
+    }
 }
