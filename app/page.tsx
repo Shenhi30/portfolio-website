@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import css from "./home.module.scss"
 import Image from 'next/image'
 import Hero from "../components/hero/hero"
 
@@ -9,13 +8,12 @@ export default function Home() {
     <>
       <Hero/>
 
-
-      <section className={css.projects_preview}>
-        <div><h2><span className={css.hash}>#</span>projects</h2></div>
+      <section>
+        <div><h2><span >#</span>projects</h2></div>
         <br />
         <Link href="/projects">Viev all ~→</Link>
 
-        <div className={css.cards}>
+        <div >
           <Image 
           src=""
           width={330}
@@ -36,7 +34,7 @@ export default function Home() {
           </p>
           <Link href="https://kiyv-carwash.vercel.app/">Live ←—→</Link>
         </div>
-        <div className={css.cards}>
+        <div>
           <Image 
           src=""
           width={330}
@@ -59,21 +57,21 @@ export default function Home() {
 
       </section>
       
-      <section className={css.skills_preview}>
+      <section >
 
 
 
 
       </section>
 
-      <section className={css.about_me_preview}>
+      <section >
 
 
 
 
       </section>
       
-      <section className={css.contacts_preview}>
+      <section >
 
 
 

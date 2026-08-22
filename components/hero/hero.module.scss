@@ -4,6 +4,88 @@
     color: $primary-purple;
 }
 
+
+.white_text{
+    color: $text-white;
+}
+
+
 .hash {
     color: $primary-purple;
+}
+
+.Hero{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 64px 0;
+
+    @include mobile{
+        flex-direction: column;
+        padding:32px 0;
+    }
+}
+
+.text_box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 550px;
+
+}
+
+.hero_header{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    @include mobile{
+        font-size: 24px;
+    }
+}
+
+.hero_text{
+    font-size: 16px;
+    color: $text-gray;
+    margin-bottom: 32px;
+    line-height: 1.6;
+
+}
+
+.contact_btn{
+    display: inline-block;
+    padding: 8px 16px;
+    border-color: $primary-purple;
+    border-radius: 1px;
+    border-style: solid;
+
+}
+
+.image_box{
+
+}
+
+.imageWrapper{
+
+}
+
+.under_text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color:  gray;
+    margin-top: 16px;
+    width: max-content;
+    z-index: 3;
+}
+
+.p_box {
+    background-color: $primary-purple;
+    width: 16px;
+    height: 16px;
 }
