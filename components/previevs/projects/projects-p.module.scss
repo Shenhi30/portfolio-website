@@ -3,3 +3,22 @@
 .hash {
     color: $primary-purple;
 }
+
+.text_gray{
+    color: $text-gray;
+}
+
+.projectsP{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.cards{
+    p{
+        border-radius: 1px;
+        border-style: solid;
+        border-color: $text-gray;
+    }
+}

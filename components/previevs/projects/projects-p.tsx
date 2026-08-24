@@ -3,26 +3,27 @@ import Link from "next/link"
 import css from "../projects/projects-p.module.scss"
 
 
-export default function projectsPrewiev() {
+export default function ProjectsP() {
     return (
         <>
         
         <section>
+        <nav className={css.projectsP}>
         <div><h2><span className={css.hash}>#</span>projects</h2></div>
         <br />
         <Link href="/projects">Viev all ~→</Link>
-
-        <div >
+        </nav>
+        <div className={css.cards} >
           <Image 
-          src=""
+          src="/images/CarWash.png"
+          alt="CarWash" 
           width={330}
           height={201}
-          alt='preview'
           priority
           />
 
-          <p>
-
+          <p className={css.text_gray}>
+            html, react, node.js, MYSQL, express
           </p>
 
           <h1>
@@ -33,17 +34,17 @@ export default function projectsPrewiev() {
           </p>
           <Link href="https://kiyv-carwash.vercel.app/">Live ←—→</Link>
         </div>
-        <div>
+        <div className={css.cards}>
           <Image 
-          src=""
+          src="/images/NoteHub.png"
           width={330}
           height={201}
-          alt='preview'
+          alt='NoteHub'
           priority
           />
 
-          <p>
-
+          <p className={css.text_gray}>
+            html, react, node.js, mongodb, express
           </p>
           <h1>
 
@@ -51,7 +52,7 @@ export default function projectsPrewiev() {
           <p>
 
           </p>
-          <Link href="https://09-auth-iota-two.vercel.app">Live ←—→</Link>
+          <Link href="https://08-zustand-eta-azure.vercel.app/">Live ←—→</Link>
         </div>
 
       </section>
