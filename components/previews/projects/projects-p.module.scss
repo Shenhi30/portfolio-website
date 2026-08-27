@@ -1,0 +1,52 @@
+@import "../../../styles/variables.scss";
+
+.hash {
+    color: $primary-purple;
+}
+
+.text_gray{
+    color: $text-gray;
+}
+
+.projectsP{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+   .line {
+       height: 1px;
+       background-color: $primary-purple;
+   }
+
+.cardWrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: $text-gray;
+    width: 100%;
+    max-width: 334px;
+        .imageWrap{
+            border: 1px solid $text-gray;
+        }
+
+    p{
+        border-radius: 1px;
+        border-style: solid;
+        border-color: $text-gray;
+    }
+
+    a{
+        border: 1px solid $primary-purple;
+    }
+}
+

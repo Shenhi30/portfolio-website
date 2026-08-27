@@ -1,0 +1,46 @@
+@import "../../styles/variables.scss";
+
+
+.sectionHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+
+.title {
+    font-size: 32px;
+    font-weight: 500;
+    color: $text-white;
+    display: flex;
+    align-items: center;
+}
+
+.hash {
+    color: $primary-purple;
+}
+
+
+.line {
+    height: 1px;
+    background-color: $primary-purple;
+    margin-left: 16px;
+
+
+    flex: 1;
+    max-width: 500px;
+}
+
+
+.viewAll {
+    margin-left: auto;
+
+    color: $text-white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: $primary-purple;
+    }
+}

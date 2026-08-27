@@ -3,10 +3,10 @@ import css from './footer.module.scss'
 
 
 export default function Footer() {
-    
     return (
         <>
-        <nav className={css.footer_logo}>
+        <div>
+            <nav className={css.footer_logo}>
                 <Image 
                     src="/images/logo.png"
                     alt="Logo"
@@ -15,12 +15,11 @@ export default function Footer() {
                     priority
                 />
             </nav>
-            <div>
             <p className={css.footer_name}>Viktor</p>
             <p className={css.footer_email}>shenhi0master@gmail.com</p>
-            <p>Front-end developer</p>    
-            </div>
-        
+            <p className={css.footer_desk}>Front-end developer</p>    
+            
+        </div>
         
         </>
     )

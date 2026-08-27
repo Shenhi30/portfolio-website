@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import css from "../projects/projects-p.module.scss"
+import SectionTitle from "@/components/UI/sectionTitle"
 
 
 export default function ProjectsP() {
@@ -8,13 +9,10 @@ export default function ProjectsP() {
         <>
         
         <section>
-        <nav className={css.projectsP}>
-        <div><h2><span className={css.hash}>#</span>projects</h2></div>
-        <br />
-        <Link href="/projects">Viev all ~→</Link>
-        </nav>
-        <div className={css.cards} >
-          <Image 
+          <SectionTitle title="projects" viewAllLink="/projects" />
+          <div className={css.cardWrap}>
+        <div className={css.card} >
+          <Image className={css.imageWrap}
           src="/images/CarWash.png"
           alt="CarWash" 
           width={330}
@@ -27,15 +25,15 @@ export default function ProjectsP() {
           </p>
 
           <h1>
-
+            CarWash servise
           </h1>
           <p>
 
           </p>
           <Link href="https://kiyv-carwash.vercel.app/">Live ←—→</Link>
         </div>
-        <div className={css.cards}>
-          <Image 
+        <div className={css.card}>
+          <Image className={css.imageWrap}
           src="/images/NoteHub.png"
           width={330}
           height={201}
@@ -47,14 +45,14 @@ export default function ProjectsP() {
             html, react, node.js, mongodb, express
           </p>
           <h1>
-
+            NoteNub
           </h1>
           <p>
 
           </p>
           <Link href="https://08-zustand-eta-azure.vercel.app/">Live ←—→</Link>
         </div>
-
+        </div>
       </section>
             
         </>
