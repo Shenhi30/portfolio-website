@@ -8,11 +8,21 @@ export default function SkillsP() {
         
             <SectionTitle title={"Skills"} />
         <div className={css.cardWrap}>
-            <SkillCards title={"Languages"} skills={[]} />
-            <SkillCards title={"Other"} skills={[]} />
-            <SkillCards title={"Databases"} skills={[]} />
-            <SkillCards title={"Tools"} skills={[]} />
-            <SkillCards title={"Frameworks"} skills={[]} />
+            <SkillCards
+             title={"Languages"}
+             skills={['Javascript,','Typescript']} />
+            <SkillCards
+             title={"Other"}
+             skills={['html, ', 'css, ','sccs']} />
+            <SkillCards
+             title={"Databases"}
+             skills={['MYSQL, ','MongoDB']} />
+            <SkillCards
+             title={"Tools"}
+             skills={['VScode,','git, ','figma ']} />
+            <SkillCards 
+            title={"Frameworks"}
+             skills={['react, ','express.js']} />
         </div>
         </>
     )
