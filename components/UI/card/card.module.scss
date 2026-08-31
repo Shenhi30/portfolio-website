@@ -1,2 +1,51 @@
-@import "../../../styles/variables.scss"
+@import "../../../styles/variables.scss";
 
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: $text-gray;
+    background-color: $bg-dark;
+    width: 100%;
+    max-width: 338px;
+}
+
+.imageWrap {
+    border: 1px solid $text-gray;
+}
+
+.techStack{
+        border: 1px solid $text-gray;
+        color: $text-gray;
+}
+
+.content{
+    padding: 16px;
+    h1{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    p{
+        color: $text-gray;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .button{
+        display: inline-flex;
+        align-items: center;
+        color: $text-white;
+        border: 1px solid $primary-purple;
+        cursor: pointer;
+        background: transparent;
+        transition: all 0.5 ease-in-out;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 4px 16px;
+
+        &:hover{
+            background-color:rgba(199, 120, 221, 0.1);
+        }
+    }
+}

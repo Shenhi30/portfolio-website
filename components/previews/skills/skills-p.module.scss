@@ -1,1 +1,9 @@
 @import "../../../styles/variables.scss";
+
+
+.cardWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}

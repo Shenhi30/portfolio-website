@@ -8,36 +8,36 @@ interface ProjectCardProps {
   techStack: string[];
   imageUrl: string;
   liveLink?: string;
-  cachedLink?: string;
 }
 
 
-export default function Card({title, description, techStack, imageUrl, liveLink, cachedLink }: ProjectCardProps) {
+export default function Card({title, description, techStack, imageUrl, liveLink }: ProjectCardProps) {
     return (
         <>
         <div className={css.card} >
           <div  className={css.imageWrap}>      
           <Image
-          src={imageUrl}
-          alt={`Thumbnail for ${title}`}
-          width={330}
-          height={201}
-          priority
-          fill
+            src={imageUrl}
+            alt={`Thumbnail for ${title}`}
+            width={330}
+            height={201}
+            priority
           />
          </div>
           <div className={css.techStack}>
-            html, react, node.js, MYSQL, express
+            {techStack.join(' ')}
           </div>
          <div className={css.content}>
-          <h1>
-            CarWash servise
-          </h1>
-          <p>
-
-          </p>
-         </div>     
-          <Link href="https://kiyv-carwash.vercel.app/">Live ←—→</Link>
+            <h1>
+              {title}
+            </h1>
+            <p>
+              {description}
+            </p>
+            {liveLink && (  
+              <Link href={liveLink} className={css.button}>Live ←—→</Link>
+            )}  
+          </div>
         </div>
         
         </>
