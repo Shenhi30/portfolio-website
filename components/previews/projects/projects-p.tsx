@@ -12,14 +12,14 @@ export default function ProjectsP() {
           <div className={css.cardWrap}>
             <Card
               title="CarWash services"
-              techStack={['Next.js, ', 'scss, ', 'react, ', 'node.js, ', 'MYSQL, ', 'express']}
+              techStack={['Next.js, ', 'SCSS, ', 'React, ', 'Node.js, ', 'MYSQL, ', 'Express']}
               description="Full-stack booking application for local car washing services."
               imageUrl="/images/CarWash.png"
               liveLink="https://kiyv-carwash.vercel.app/"
             />
             <Card
               title="NoteHub"
-              techStack={['Next, ', 'react, ', 'node.js, ', 'mongodb, ', 'express']}
+              techStack={['Next, ', 'React, ', 'Node.js, ', 'Mongodb, ', 'Express']}
               description="Full-stack app for note taking while learning."
               imageUrl="/images/NoteHub.png"
               liveLink="https://08-zustand-eta-azure.vercel.app/"
