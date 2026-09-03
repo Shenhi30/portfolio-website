@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+
+.header{
+
+span{
+    color: $primary-purple;
+}
+
+}
+
+
+.text{
+    color: $text-gray;
+}
+
+.cardWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
