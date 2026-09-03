@@ -32,7 +32,7 @@ export default function about() {
              skills={['Javascript,','Typescript']} />
             <SkillCards
              title={"Other"}
-             skills={['html, ', 'css, ','sccs','REST']} />
+             skills={['html, ', 'css, ','scss','REST']} />
             <SkillCards
              title={"Databases"}
              skills={['MYSQL, ','MongoDB']} />
