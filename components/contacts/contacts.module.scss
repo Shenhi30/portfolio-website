@@ -1,0 +1,33 @@
+@import "../../styles/variables.scss";
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    max-width: 600px;
+    color: $text-gray;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    border: 1px solid $text-gray;
+
+    h1 {
+        font-size: 18px;
+    }
+}
+
+.slash{
+    color: $primary-orange;
+}
+
+.horisontal{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+}

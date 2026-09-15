@@ -17,13 +17,13 @@
 }
 
 .hash {
-    color: $primary-purple;
+    color: $primary-orange;
 }
 
 
 .line {
     height: 1px;
-    background-color: $primary-purple;
+    background-color: $primary-orange;
     margin-left: 16px;
 
 
@@ -41,6 +41,6 @@
     transition: color 0.2s ease;
 
     &:hover {
-        color: $primary-purple;
+        color: $primary-orange;
     }
 }

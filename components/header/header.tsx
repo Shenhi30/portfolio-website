@@ -35,6 +35,9 @@ export default function Header () {
                     </ul>
                 </nav>
             </header>
+
+            <div className={css.line}></div>
+
         </>
     )
 }

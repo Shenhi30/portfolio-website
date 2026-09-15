@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+
+.cardWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: $text-gray;
+    width: 100%;
+    min-width: 300px;
+    max-width: 300px;
+
+    .imageWrap {
+        border: 1px solid $text-gray;
+    }
+
+    p {
+        border: 1px solid $text-gray
+    }
+
+    a {
+        border: 1px solid $primary-orange;
+    }
+}

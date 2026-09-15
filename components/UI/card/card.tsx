@@ -16,7 +16,7 @@ export default function Card({title, description, techStack, imageUrl, liveLink 
         <>
         <div className={css.card} >
           <div  className={css.imageWrap}>      
-          <Image
+          <Image className={css.image}
             src={imageUrl}
             alt={`Thumbnail for ${title}`}
             width={310}

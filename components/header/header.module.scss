@@ -54,6 +54,13 @@
         }
     }
     .hash {
-        color: $primary-purple;
+        color: $primary-orange;
     }
+}
+
+.line {
+    margin-bottom: 40px;
+    height: 2px;
+    background-color: $primary-orange;
+
 }

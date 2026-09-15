@@ -20,7 +20,6 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className={styles.container}>
-          {/* <SocialSidebar /> */}
           <Header />
           <main className={styles.main}>
             {children}

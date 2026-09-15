@@ -4,7 +4,7 @@ import Image from "next/image"
 
 interface ContactProps{
     imageUrl: string;
-    text: string;
+    text?: string;
     linkTo?: string;
     imageAlt: string;
 }
