@@ -31,3 +31,7 @@ export default function ProjectsP() {
     )
 
 }
+
+
+// https://shenhi30.github.io/goit-js-hw-12/ image gallery using Pixabay API
+// https://04-react-query-njno6bg56-shenhi30s-projects.vercel.app/ movie database with raiting, short description, realise date using TMDB API

@@ -34,15 +34,14 @@
     border-style: solid;
     border-color: $text-gray;
     width: 100%;
-    max-width: 334px;
+    min-width: 310px;
+    max-width: 310px;
         .imageWrap{
             border: 1px solid $text-gray;
         }
 
     p{
-        border-radius: 1px;
-        border-style: solid;
-        border-color: $text-gray;
+        border: 1px solid $text-gray
     }
 
     a{

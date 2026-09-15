@@ -19,7 +19,7 @@ export default function Card({title, description, techStack, imageUrl, liveLink 
           <Image
             src={imageUrl}
             alt={`Thumbnail for ${title}`}
-            width={330}
+            width={310}
             height={201}
             priority
           />

@@ -9,10 +9,10 @@ export default function Header () {
             <header className={css.header}>
                 <Link href="/" className={css.header_logo}>
                 <Image 
-                    src="/images/logo.png"
+                    src="/images/fox-logo.png"
                     alt="Logo"
-                    width={16}
-                    height={16}
+                    width={32}
+                    height={32}
                     priority
                 />
                 

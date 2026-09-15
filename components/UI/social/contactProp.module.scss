@@ -1,0 +1,11 @@
+@import "../../../styles/variables.scss";
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.greyText{
+    color: $text-gray;
+}
