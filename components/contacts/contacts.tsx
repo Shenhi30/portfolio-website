@@ -15,9 +15,9 @@ export default function Contacts() {
                 <h1>My contacts</h1>
                     <ContactInfo
                         imageUrl="/images/Email.png"
-                        text="shenhi0master@gmail.com"
+                        text="viktor.poliakov001@gmail.com"
                         imageAlt="email"
-                        linkTo="mailto:shenhi0master@gmail.com"
+                        linkTo="mailto:viktor.poliakov001@gmail.com"
                     />
                     <ContactInfo
                         imageUrl="/images/Linkedin.png"
@@ -35,9 +35,9 @@ export default function Contacts() {
 
                     <ContactInfo
                         imageUrl="/images/Email.png"
-                        text="shenhi0master@gmail.com"
+                        text="viktor.poliakov001@gmail.com"
                         imageAlt="email"
-                        linkTo="mailto:shenhi0master@gmail.com"
+                        linkTo="mailto:viktor.poliakov001@gmail.com"
                     />
                     <ContactInfo
                         imageUrl="/images/Linkedin.png"

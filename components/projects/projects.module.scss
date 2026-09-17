@@ -1,5 +1,11 @@
 @import "../../styles/variables.scss";
 
+.big{
+    span{
+        color: $primary-orange;
+    }
+}
+
 .cardWrap {
     display: flex;
     flex-direction: row;
@@ -27,5 +33,11 @@
 
     a {
         border: 1px solid $primary-orange;
+    }
+}
+
+.small {
+    span {
+        color: $primary-orange;
     }
 }

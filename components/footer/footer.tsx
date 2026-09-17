@@ -21,7 +21,7 @@ export default function Footer() {
                 />
             
                 <p className={css.footer_name}>Viktor</p>
-                <a href="mailto:shenhi0master@gmail.com" target="_blank" rel="noopener noreferrer" className={css.footer_email}>shenhi0master@gmail.com</a>
+                <a href="mailto:viktor.poliakov001@gmail.com" target="_blank" rel="noopener noreferrer" className={css.footer_email}>viktor.poliakov001@gmail.com</a>
             </nav>
             
             <p className={css.footer_desk}>Front-end developer</p>    
@@ -38,7 +38,7 @@ export default function Footer() {
                     <ContactInfo
                         imageUrl={'/images/Email.png'}
                         imageAlt={'email'}
-                        linkTo='mailto:shenhi0master@gmail.com'
+                        linkTo='mailto:viktor.poliakov001@gmail.com'
                     />
                     <ContactInfo
                         imageUrl={'/images/Linkedin.png'}

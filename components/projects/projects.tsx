@@ -7,6 +7,7 @@ import css from "./projects.module.scss"
 export default function Projects() {
     return (
         <>
+            <h1 className={css.big}><span>/</span>Projects</h1>
             <div className={css.cardWrap}>
         <Card
             title="CarWash services"
@@ -47,7 +48,15 @@ export default function Projects() {
             imageUrl={"/images/portfolio.png"}            
             
         />
-        </div>
+            </div>
+            
+            <h1 className={css.small}><span>/</span>small projects</h1>
+            <div className={css.cardWrap}>
+                
+
+
+
+            </div>
         </>
     )
 }
