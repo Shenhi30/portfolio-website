@@ -53,7 +53,14 @@ export default function Projects() {
             <h1 className={css.small}><span>/</span>small projects</h1>
             <div className={css.cardWrap}>
                 
-
+                <Card
+                    title={"Coin flip"}
+                    description={"simple coin flipper app"}
+                    techStack={['Next.js', 'React', 'SCSS']}
+                    imageUrl={"/images/coin-flip.png"}
+                    liveLink="https://wery-simple-coin-flipper.vercel.app
+"
+                />
 
 
             </div>
