@@ -27,8 +27,8 @@ export default function Projects() {
         />
          <Card
             title={"Movie DB"}
-            description={"movie database with raiting, short description, realise date using TMDB API"}
-            techStack={['Javascript','React','Vite.js']}
+            description={"Movie database with rating, short description, and release date using the TMDB API"}
+            techStack={['Javascript','React','CSS','Vite.js']}
             imageUrl={"/images/TMDB.png"} 
             liveLink="https://04-react-query-njno6bg56-shenhi30s-projects.vercel.app/"       
             
