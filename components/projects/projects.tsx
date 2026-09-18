@@ -20,7 +20,7 @@ export default function Projects() {
          <Card
             title="NoteHub"
             techStack={['Next.js, ', 'React, ', 'Node.js, ', 'Mongodb, ', 'Express']}
-            description="Full-stack app for note taking while learning."
+            description="Full-stack app for note-taking while learning."
             imageUrl="/images/NoteHub.png"
             liveLink="https://08-zustand-eta-azure.vercel.app/"           
             
@@ -58,8 +58,7 @@ export default function Projects() {
                     description={"simple coin flipper app"}
                     techStack={['Next.js', 'React', 'SCSS']}
                     imageUrl={"/images/coin-flip.png"}
-                    liveLink="https://wery-simple-coin-flipper.vercel.app
-"
+                    liveLink="https://wery-simple-coin-flipper.vercel.app/"
                 />
 
 
